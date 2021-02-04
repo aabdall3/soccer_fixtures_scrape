@@ -44,8 +44,8 @@ for i in league:
         print(i)
 
 #input twilio credentials from twilio account 
-account_sid = "AC44610845ca05d5ab6d136e38d726bb7a"
-auth_token = "34368e615e3a5770f3b35b7a9f6b7ed1"
+account_sid = "xxxxxxxxx"
+auth_token = "xxxxxxxx"
 client = Client(account_sid, auth_token)
 
 #function for sending twilio SMS message to phone
